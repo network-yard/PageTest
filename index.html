@@ -38,10 +38,13 @@
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   <script>
-    const text = document.getElementById("exampleFormControlTextarea1");
-    const value = text.value;
-    console.log('value');
-    document.write(value);
+    setTimeout(function(){
+        const text = document.getElementById("exampleFormControlTextarea1");
+        const value = text.value;
+        console.log('value');
+        document.write(value);
+    },1000);
+    
   </script>
 </body>
   
