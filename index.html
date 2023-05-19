@@ -39,9 +39,12 @@
   </div>
   <script>
     setTimeout(function(){
+        const adress = document.getElementByID("exampleFormControlInput1");
         const text = document.getElementById("exampleFormControlTextarea1");
-        const value = text.value;
+        const value = adress.value;
         console.log('value');
+        document.write(value);
+        value = text.value;
         document.write(value);
     },8000);
     
